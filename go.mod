@@ -1,34 +1,43 @@
 module ehang.io/nps
 
-go 1.15
+go 1.16
 
 require (
-	ehang.io/nps-mux v0.0.0-20210407130203-4afa0c10c992
-	fyne.io/fyne/v2 v2.0.2
-	github.com/astaxie/beego v1.12.0
-	github.com/bradfitz/iter v0.0.0-20191230175014-e8f45d346db8 // indirect
-	github.com/c4milo/unpackit v0.0.0-20170704181138-4ed373e9ef1c
-	github.com/ccding/go-stun v0.0.0-20180726100737-be486d185f3d
-	github.com/dsnet/compress v0.0.1 // indirect
-	github.com/golang/snappy v0.0.3
-	github.com/hooklift/assert v0.0.0-20170704181755-9d1defd6d214 // indirect
-	github.com/kardianos/service v1.2.0
-	github.com/klauspost/cpuid v1.3.1 // indirect
-	github.com/klauspost/cpuid/v2 v2.0.6 // indirect
-	github.com/klauspost/pgzip v1.2.1 // indirect
-	github.com/klauspost/reedsolomon v1.9.12 // indirect
-	github.com/panjf2000/ants/v2 v2.4.2
-	github.com/pkg/errors v0.9.1
-	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644 // indirect
-	github.com/shirou/gopsutil/v3 v3.21.3
-	github.com/templexxx/cpufeat v0.0.0-20180724012125-cef66df7f161 // indirect
-	github.com/templexxx/xor v0.0.0-20191217153810-f85b25db303b // indirect
-	github.com/tjfoc/gmsm v1.4.0 // indirect
-	github.com/xtaci/kcp-go v5.4.20+incompatible
-	github.com/xtaci/lossyconn v0.0.0-20190602105132-8df528c0c9ae // indirect
-	golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2 // indirect
-	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4
-	golang.org/x/sys v0.0.0-20210403161142-5e06dd20ab57 // indirect
+	github.com/appleboy/gin-jwt v2.5.0+incompatible // indirect
+	github.com/appleboy/gin-jwt/v2 v2.7.0 // indirect
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
+	github.com/fatih/structtag v1.2.0 // indirect
+	github.com/gin-contrib/cache v1.1.0 // indirect
+	github.com/gin-contrib/cors v1.3.1 // indirect
+	github.com/gin-gonic/gin v1.7.6 // indirect
+	github.com/gliderlabs/ssh v0.3.3 // indirect
+	github.com/go-redis/redis/v8 v8.11.4 // indirect
+	github.com/gogo/protobuf v1.3.2 // indirect
+	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/hashicorp/yamux v0.0.0-20211028200310-0bc27b27de87
+	github.com/icodeface/grdp v0.0.0-20200414055757-e0008b0b5cb2 // indirect
+	github.com/knadh/koanf v1.3.3 // indirect
+	github.com/lucas-clemente/quic-go v0.24.0
+	github.com/marten-seemann/qtls v0.10.0 // indirect
+	github.com/miekg/dns v1.1.43 // indirect
+	github.com/panjf2000/ants/v2 v2.4.6 // indirect
+	github.com/patrickmn/go-cache v2.1.0+incompatible // indirect
+	github.com/pkg/errors v0.9.1 // indirect
+	github.com/robfig/go-cache v0.0.0-20130306151617-9fc39e0dbf62 // indirect
+	github.com/satori/go.uuid v1.2.0 // indirect
+	github.com/shirou/gopsutil v3.21.11+incompatible // indirect
+	github.com/stretchr/testify v1.7.0 // indirect
+	github.com/tidwall/gjson v1.12.1 // indirect
+	github.com/yusufpapurcu/wmi v1.2.2 // indirect
+	go.opentelemetry.io/otel v0.20.0 // indirect
+	go.uber.org/zap v1.19.1
+	golang.org/x/crypto v0.0.0-20211202192323-5770296d904e // indirect
+	golang.org/x/net v0.0.0-20211201190559-0a0e4e1bb54c // indirect
+	google.golang.org/protobuf v1.27.1 // indirect
+	gopkg.in/dgrijalva/jwt-go.v3 v3.2.0 // indirect
+	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
+	gopkg.in/go-playground/validator.v8 v8.18.2 // indirect
+	gopkg.in/natefinch/lumberjack.v2 v2.0.0
+	gorm.io/driver/sqlite v1.2.6 // indirect
+	gorm.io/gorm v1.22.3 // indirect
 )
-
-replace github.com/astaxie/beego => github.com/exfly/beego v1.12.0-export-init
